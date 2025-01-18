@@ -1,7 +1,7 @@
-"use strict";var s=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var n=s(function(b,t){
-var m=require('@stdlib/blas-ext-base-gapxsumkbn/dist');function o(e,r,a,u){return m(e,r,a,u)}t.exports=o
-});var p=s(function(f,i){
-var q=require('@stdlib/blas-ext-base-gapxsumkbn/dist').ndarray;function v(e,r,a,u,c){return q(e,r,a,u,c)}i.exports=v
-});var d=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),x=n(),g=p();d(x,"ndarray",g);module.exports=x;
+"use strict";var s=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var t=s(function(b,n){
+var v=require('@stdlib/blas-ext-base-gapxsumkbn/dist').ndarray;function x(e,r,u,a,q){return v(e,r,u,a,q)}n.exports=x
+});var o=s(function(k,i){
+var c=require('@stdlib/strided-base-stride2offset/dist'),d=t();function y(e,r,u,a){return d(e,r,u,a,c(e,a))}i.exports=y
+});var f=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),p=o(),m=t();f(p,"ndarray",m);module.exports=p;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map

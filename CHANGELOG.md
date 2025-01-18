@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-13)
+## Unreleased (2025-01-18)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`678f294`](https://github.com/stdlib-js/stdlib/commit/678f294c5f9cc5b9e89b38e1e6e1736d3c4b621c) - **refactor:** update `blas/ext/base/gapxsum` to follow current project conventions [(#4348)](https://github.com/stdlib-js/stdlib/pull/4348) _(by Muhammad Haris, Athan Reines)_
 -   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
 -   [`7e366ae`](https://github.com/stdlib-js/stdlib/commit/7e366ae8bd41439be0e99e958d1c3fbb1b7dd0c2) - **chore:** update package.json descriptions _(by Philipp Burckhardt)_
 -   [`ed44fee`](https://github.com/stdlib-js/stdlib/commit/ed44feecb9eaa5e0849d1a533e5415624d0aa338) - **style:** use imperative in package.json description and end with period _(by Philipp Burckhardt)_
@@ -26,8 +27,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Muhammad Haris
 -   Philipp Burckhardt
 
 </section>
