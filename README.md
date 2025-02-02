@@ -142,6 +142,7 @@ var v = gapxsum.ndarray( 4, 5.0, x, 2, 1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `0.0`.
+-   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array-base/accessor`][@stdlib/array/base/accessor])
 -   Depending on the environment, the typed versions ([`dapxsum`][@stdlib/blas/ext/base/dapxsum], [`sapxsum`][@stdlib/blas/ext/base/sapxsum], etc.) are likely to be significantly more performant.
 
 </section>
@@ -269,6 +270,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
 <!-- <related-links> -->
 
